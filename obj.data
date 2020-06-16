@@ -2,4 +2,4 @@ classes= 1
 train  = /content/darknet/Trainyolo/train.txt
 valid  = /content/darknet/Trainyolo/test.txt
 names = /content/darknet/Trainyolo/obj.data
-backup = /content/darknet/backup
+backup = /content/darknet/Trainyolo/backup

@@ -1,10 +1,10 @@
 import glob, os# Current directory
-current_dir = "/content/gdrive/My Drive/darknet/placayolo"
+current_dir = "/content/darknet/Trainyolo/placayolo"
 print(current_dir)
-current_dir = 'F:\tesisv\placayolo'# Percentage of images to be used for the test set
+current_dir = '/content/darknet/Trainyolo/placayolo'# Percentage of images to be used for the test set
 percentage_test = 20;# Create and/or truncate train.txt and test.txt
-file_train = open('train.txt', 'w')  
-file_test = open('test.txt', 'w')# Populate train.txt and test.txt
+file_train = open('/content/darknet/Trainyolo/train.txt', 'w')  
+file_test = open('/content/darknet/Trainyolo/test.txt', 'w')# Populate train.txt and test.txt
 counter = 1  
 index_test = round(100 / percentage_test)  
 for pathAndFilename in glob.iglob(os.path.join(current_dir, "*.jpg")):  
